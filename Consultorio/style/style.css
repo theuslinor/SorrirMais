@@ -284,7 +284,7 @@ nav.desktop-nav a {
 
 .clinicas-image {
   flex: 1;
-  background-image: url('../img/consultorio.png');
+  background-image: url('../img//imgpagina/consultorio.png');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
