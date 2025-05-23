@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&display=swap');
 
-/* General Body and Section Styling */
 body {
   font-family: 'Lexend', sans-serif;
   font-optical-sizing: auto;
@@ -13,7 +12,6 @@ section {
   padding: 60px 0;
 }
 
-/* Header Styling */
 .custom-header {
   padding: 24px 0;
   background-color: #f8f9fa;
@@ -27,7 +25,6 @@ section {
   height: auto;
 }
 
-/* Desktop Navigation Styling */
 nav.desktop-nav {
   display: flex;
   justify-content: end;
@@ -39,7 +36,6 @@ nav.desktop-nav a {
   text-decoration: none;
 }
 
-/* Hamburger Menu Styling */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -71,7 +67,6 @@ nav.desktop-nav a {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* Mobile Navigation Styling */
 .mobile-nav {
   max-height: 0;
   overflow: hidden;
@@ -100,7 +95,6 @@ nav.desktop-nav a {
   color: #000;
 }
 
-/* Hero Section Styling */
 .hero {
   min-height: 400px;
   display: flex;
@@ -117,7 +111,6 @@ nav.desktop-nav a {
   font-size: 1.5rem;
 }
 
-/* Sobre Nós Section Styling */
 .casal-feliz {
   max-width: 700px;
   width: 100%;
@@ -126,7 +119,6 @@ nav.desktop-nav a {
   margin: 0 auto;
 }
 
-/* Picture Section Styling */
 .consultorio {
   height: 500px;
   object-fit: cover;
@@ -140,7 +132,6 @@ nav.desktop-nav a {
   margin: 0;
 }
 
-/* CEO Section Styling */
 #ceo-sorrir {
   background: linear-gradient(135deg, #007bff, #00d4ff);
   padding: 60px 0;
@@ -175,7 +166,6 @@ nav.desktop-nav a {
   border-radius: 8px;
 }
 
-/* Serviços Section Styling */
 #servicos {
   min-height: 100vh;
   display: flex;
@@ -210,8 +200,6 @@ nav.desktop-nav a {
   scroll-snap-align: start;
 }
 
-
-
 #carouselServicos .card {
   border: none;
   height: 420px;
@@ -228,7 +216,6 @@ nav.desktop-nav a {
   border-top-right-radius: 1rem;
 }
 
-/* Dentistas Section Styling */
 #carouselDentistas {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -240,7 +227,6 @@ nav.desktop-nav a {
   display: none;
 }
 
-/* Carousel Controls Styling */
 .carousel-control-prev,
 .carousel-control-next,
 .dentistas-prev-btn,
@@ -275,7 +261,6 @@ nav.desktop-nav a {
   height: auto;
 }
 
-/* Clinicas Section Styling */
 .clinica-section {
   display: flex;
   height: 100vh;
@@ -313,7 +298,6 @@ nav.desktop-nav a {
   margin-bottom: 20px;
 }
 
-/* Contato Section Styling */
 #contato {
   min-height: 100vh;
   background: linear-gradient(135deg, #007bff, #00d4ff);
@@ -349,25 +333,21 @@ nav.desktop-nav a {
   margin-top: 1rem;
 }
 
-/* Footer Styling */
 footer {
   background-color: #343a40;
 }
 
-/* Feedback and Alert Styling */
 .feedback,
 .alert {
   margin-bottom: 20px;
   font-weight: bold;
 }
 
-/* Newsletter Styling */
 .newsletter-input {
   max-width: 400px;
   width: 100%;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
   nav.desktop-nav {
     display: none;
